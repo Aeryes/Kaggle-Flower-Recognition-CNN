@@ -16,7 +16,7 @@ The images are first preprocessed by flipping them horizontally to add more data
 
 I have managed a 97% accuracy during training. 
 
-###Current features in the working:
+### Current features in the working:
 - File paths
 - Model saving
 - argparse
