@@ -18,7 +18,6 @@ I have managed a 97% accuracy during training.
 
 ### Current features in the working:
 - File paths
-- Model saving
 - argparse
 
 Link to the data: https://www.kaggle.com/alxmamaev/flowers-recognition
