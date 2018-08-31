@@ -16,8 +16,7 @@ The images are first preprocessed by flipping them horizontally to add more data
 
 I have managed a 97% accuracy during training. 
 
-### Current features in the working:
-- File paths
-- argparse
+### Things to note:
+- You will need to change the directories been used in the code to wherever you have stored the data.
 
 Link to the data: https://www.kaggle.com/alxmamaev/flowers-recognition
