@@ -1,0 +1,72 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "flower-classifier"
+version = "0.1.0"
+description = "Reproducible flower classification pipeline with observable training artifacts."
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "GPL-3.0-only" }
+authors = [
+  { name = "Dylan" }
+]
+dependencies = [
+  "gradio>=4.44",
+  "kaggle>=2.2.4",
+  "matplotlib>=3.9",
+  "numpy>=1.26",
+  "pandas>=2.2",
+  "pillow>=10.4",
+  "pyyaml>=6.0.2",
+  "scikit-learn>=1.5",
+  "tensorboard>=2.17",
+  "torch>=2.4",
+  "torchvision>=0.19",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3",
+  "ruff>=0.6.9",
+]
+
+[project.scripts]
+flower-prepare-data = "flower_classifier.cli:prepare_data_command"
+flower-train = "flower_classifier.cli:train_command"
+flower-evaluate = "flower_classifier.cli:evaluate_command"
+flower-predict = "flower_classifier.cli:predict_command"
+flower-benchmark = "flower_classifier.cli:benchmark_command"
+flower-preview = "flower_classifier.cli:preview_command"
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[tool.uv.sources]
+torch = [
+  { index = "pytorch-cu128", marker = "sys_platform == 'win32'" },
+]
+torchvision = [
+  { index = "pytorch-cu128", marker = "sys_platform == 'win32'" },
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/flower_classifier"]
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "src",
+]
+testpaths = [
+  "tests",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "N"]

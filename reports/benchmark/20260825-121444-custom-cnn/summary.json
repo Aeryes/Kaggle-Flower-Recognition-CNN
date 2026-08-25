@@ -1,0 +1,50 @@
+{
+  "accuracy": 0.7962962962962963,
+  "generated_at": "2026-08-25T17:16:36.049292+00:00",
+  "inference_latency_ms_per_image": 2.0765759259260737,
+  "loss": 0.6078421031987226,
+  "macro_f1": 0.7954047043191789,
+  "macro_precision": 0.8050484521808808,
+  "macro_recall": 0.7929864867315606,
+  "per_class": [
+    {
+      "class_name": "daisy",
+      "f1": 0.7452830188679245,
+      "precision": 0.8061224489795918,
+      "recall": 0.6929824561403509,
+      "support": 114
+    },
+    {
+      "class_name": "dandelion",
+      "f1": 0.8125,
+      "precision": 0.7371134020618557,
+      "recall": 0.9050632911392406,
+      "support": 158
+    },
+    {
+      "class_name": "rose",
+      "f1": 0.7615062761506276,
+      "precision": 0.7520661157024794,
+      "recall": 0.7711864406779662,
+      "support": 118
+    },
+    {
+      "class_name": "sunflower",
+      "f1": 0.8767123287671232,
+      "precision": 0.8807339449541285,
+      "recall": 0.8727272727272727,
+      "support": 110
+    },
+    {
+      "class_name": "tulip",
+      "f1": 0.781021897810219,
+      "precision": 0.8492063492063492,
+      "recall": 0.722972972972973,
+      "support": 148
+    }
+  ],
+  "split": "test",
+  "weighted_f1": 0.7950996941003293,
+  "weighted_precision": 0.8019582592435694,
+  "weighted_recall": 0.7962962962962963
+}

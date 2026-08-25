@@ -1,0 +1,35 @@
+experiment_name: custom-cnn-baseline
+seed: 7
+device: auto
+
+data:
+  raw_dir: data/raw/flowers
+  processed_dir: data/processed
+  split_manifest: data/processed/split-manifest.json
+  image_size: 128
+  train_ratio: 0.7
+  val_ratio: 0.15
+  test_ratio: 0.15
+  train_batch_size: 32
+  eval_batch_size: 64
+  num_workers: 0
+  mean: [0.485, 0.456, 0.406]
+  std: [0.229, 0.224, 0.225]
+
+model:
+  name: custom_cnn
+  num_classes: 5
+  pretrained: false
+
+training:
+  epochs: 12
+  learning_rate: 0.0003
+  weight_decay: 0.0001
+  optimizer: adam
+  early_stopping_patience: 4
+  checkpoint_metric: val_accuracy
+  label_smoothing: 0.0
+
+artifacts:
+  root_dir: artifacts/runs
+  benchmark_dir: reports/benchmark

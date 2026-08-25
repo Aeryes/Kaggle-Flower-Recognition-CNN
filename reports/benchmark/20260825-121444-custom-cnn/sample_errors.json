@@ -1,0 +1,212 @@
+[
+  {
+    "label": 0,
+    "label_name": "daisy",
+    "prediction": 3,
+    "prediction_name": "sunflower",
+    "relative_path": "daisy/10300722094_28fa978807_n.jpg",
+    "top_predictions": [
+      {
+        "class_name": "sunflower",
+        "probability": 0.8216243386268616
+      },
+      {
+        "class_name": "dandelion",
+        "probability": 0.10584159195423126
+      },
+      {
+        "class_name": "daisy",
+        "probability": 0.05024431645870209
+      }
+    ]
+  },
+  {
+    "label": 0,
+    "label_name": "daisy",
+    "prediction": 1,
+    "prediction_name": "dandelion",
+    "relative_path": "daisy/10466290366_cc72e33532.jpg",
+    "top_predictions": [
+      {
+        "class_name": "dandelion",
+        "probability": 0.7808545231819153
+      },
+      {
+        "class_name": "sunflower",
+        "probability": 0.07404666393995285
+      },
+      {
+        "class_name": "tulip",
+        "probability": 0.06918126344680786
+      }
+    ]
+  },
+  {
+    "label": 0,
+    "label_name": "daisy",
+    "prediction": 1,
+    "prediction_name": "dandelion",
+    "relative_path": "daisy/11642632_1e7627a2cc.jpg",
+    "top_predictions": [
+      {
+        "class_name": "dandelion",
+        "probability": 0.9595983028411865
+      },
+      {
+        "class_name": "daisy",
+        "probability": 0.017197512090206146
+      },
+      {
+        "class_name": "tulip",
+        "probability": 0.00828484632074833
+      }
+    ]
+  },
+  {
+    "label": 0,
+    "label_name": "daisy",
+    "prediction": 1,
+    "prediction_name": "dandelion",
+    "relative_path": "daisy/14221848160_7f0a37c395.jpg",
+    "top_predictions": [
+      {
+        "class_name": "dandelion",
+        "probability": 0.6491326093673706
+      },
+      {
+        "class_name": "daisy",
+        "probability": 0.15688830614089966
+      },
+      {
+        "class_name": "rose",
+        "probability": 0.09078916162252426
+      }
+    ]
+  },
+  {
+    "label": 0,
+    "label_name": "daisy",
+    "prediction": 2,
+    "prediction_name": "rose",
+    "relative_path": "daisy/14264136211_9531fbc144.jpg",
+    "top_predictions": [
+      {
+        "class_name": "rose",
+        "probability": 0.47537633776664734
+      },
+      {
+        "class_name": "tulip",
+        "probability": 0.2438317984342575
+      },
+      {
+        "class_name": "sunflower",
+        "probability": 0.10581628978252411
+      }
+    ]
+  },
+  {
+    "label": 0,
+    "label_name": "daisy",
+    "prediction": 2,
+    "prediction_name": "rose",
+    "relative_path": "daisy/16121105382_b96251e506_m.jpg",
+    "top_predictions": [
+      {
+        "class_name": "rose",
+        "probability": 0.346565306186676
+      },
+      {
+        "class_name": "daisy",
+        "probability": 0.2912953495979309
+      },
+      {
+        "class_name": "dandelion",
+        "probability": 0.1963767409324646
+      }
+    ]
+  },
+  {
+    "label": 0,
+    "label_name": "daisy",
+    "prediction": 2,
+    "prediction_name": "rose",
+    "relative_path": "daisy/18635898912_eb8e058ef0.jpg",
+    "top_predictions": [
+      {
+        "class_name": "rose",
+        "probability": 0.5056973695755005
+      },
+      {
+        "class_name": "daisy",
+        "probability": 0.3040994703769684
+      },
+      {
+        "class_name": "tulip",
+        "probability": 0.16926822066307068
+      }
+    ]
+  },
+  {
+    "label": 0,
+    "label_name": "daisy",
+    "prediction": 1,
+    "prediction_name": "dandelion",
+    "relative_path": "daisy/19865728236_a62f8f445b_n.jpg",
+    "top_predictions": [
+      {
+        "class_name": "dandelion",
+        "probability": 0.5538089871406555
+      },
+      {
+        "class_name": "daisy",
+        "probability": 0.2426316887140274
+      },
+      {
+        "class_name": "rose",
+        "probability": 0.09643296897411346
+      }
+    ]
+  },
+  {
+    "label": 0,
+    "label_name": "daisy",
+    "prediction": 2,
+    "prediction_name": "rose",
+    "relative_path": "daisy/21805938544_bf6bb0e4bc.jpg",
+    "top_predictions": [
+      {
+        "class_name": "rose",
+        "probability": 0.678581178188324
+      },
+      {
+        "class_name": "tulip",
+        "probability": 0.17336712777614594
+      },
+      {
+        "class_name": "daisy",
+        "probability": 0.12417002767324448
+      }
+    ]
+  },
+  {
+    "label": 0,
+    "label_name": "daisy",
+    "prediction": 4,
+    "prediction_name": "tulip",
+    "relative_path": "daisy/2349640101_212c275aa7.jpg",
+    "top_predictions": [
+      {
+        "class_name": "tulip",
+        "probability": 0.8012527227401733
+      },
+      {
+        "class_name": "rose",
+        "probability": 0.14160029590129852
+      },
+      {
+        "class_name": "daisy",
+        "probability": 0.03568654507398605
+      }
+    ]
+  }
+]
